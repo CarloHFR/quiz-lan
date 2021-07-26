@@ -10,7 +10,8 @@
 
 .modal-body {
     border: none;
-    min-height: 205px;
+    min-height: /*205px;*/ 180px;
+    text-align: center;
 }
 
 .modal-footer {
@@ -22,10 +23,28 @@
 }
 
 #qid{
-    padding: 10px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center !important;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 20px;
+}
+
+.score{
+    color: #fff;
+}
+
+.final-score{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.final-message{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .btn {
@@ -45,6 +64,11 @@
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
     cursor: pointer;
+}
+
+
+.btn-start {
+    position: relative;
 }
 
 .btn-block {

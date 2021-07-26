@@ -17,25 +17,25 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
        
+        <script src="js/questions.js"></script>
+        <script src="js/index.js"></script>
     </head>
 
     <body class="bg-info">
+
+        <audio id="success" src="audio/success.mp3" preload="auto"></audio>
+        <audio id="fail" src="audio/fail.mp3" preload="auto"></audio>
 
         <div class="container-fluid">
             <div class="modal-dialog">
                 <div class="modal-content bg-info">
 
                     <div class="modal-header">
-                        <h3><span class="label label-warning" id="qid"></span> THREE is CORRECT</h3>
+                        <h3 class='col-12 modal-title text-center'><span class="label label-warning" id="qid"></span>Quiz sobre redes LAN</h3>
                     </div>
 
                     <div class="modal-body ">
-                        <div class="quiz" id="quiz" data-toggle="buttons">
-                            <label class="element-animation1 btn btn-lg btn-light btn-block text-info"><input type="radio" class="form-radio" name="q_answer" value="1">One</label>
-                            <label class="element-animation2 btn btn-lg btn-light btn-block text-info"><input type="radio" class="form-radio" name="q_answer" value="2">Two</label>
-                            <label class="element-animation3 btn btn-lg btn-light btn-block text-info"><input type="radio" class="form-radio" name="q_answer" value="3">Three</label>
-                            <label class="element-animation4 btn btn-lg btn-light btn-block text-info"><input type="radio" class="form-radio" name="q_answer" value="4">Four</label>
-                        </div>
+                        <button class='element-animation1 btn btn-lg btn-light text-info' onclick='start_game()'>Jogar</button>
                     </div>
 
                     <div class="modal-footer text-muted"><span id="answer"></span></div>
@@ -44,8 +44,7 @@
             </div>
         </div>
 
-        <script src="js/questions.js"></script>
-        <script src="js/index.js"></script>
+        
 
     </body>
 
