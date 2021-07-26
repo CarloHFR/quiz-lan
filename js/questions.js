@@ -1,22 +1,22 @@
-questions = [
-    {
+questions = {
+    "q1": {
         "question": "What is the scientific name of a butterfly?",
-        "answers": [
-            "Apis",
-            "Coleoptera",
-            "Formicidae",
-            "Rhopalocera"
-        ],
-        "correct_answer": "Formicidae"
+        "type": "multi",
+        "answers": {
+            "a1": "Apis",
+            "a2": "Coleoptera",
+            "a3": "Formicidae",
+            "a4": "Rhopalocera"
+        },
+        "correct_answer": "a3"
     },
-    {
+    "q2": {
         "question": "How hot is the surface of the sun?",
-        "answers": [
-            "1,233 K",
-            "5,778 K",
-            "12,130 K",
-            "101,300 K"
-        ],
-        "correct_answer": "1,233 K"
+        "type": "vf",
+        "answers": {
+            "a1": "1,233 K",
+            "a2": "5,778 K"
+        },
+        "correct_answer": "a1"
     }
-];
+};

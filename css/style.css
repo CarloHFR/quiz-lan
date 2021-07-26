@@ -28,7 +28,7 @@
     border-radius: 20px;
 }
 
-label.btn {
+.btn {
     font-weight: 700;
     padding: 18px 20px;
     white-space: normal;
@@ -40,14 +40,14 @@ label.btn {
     -o-transition-duration: .3s;
 }
   
-label.btn:hover {
+.btn:hover {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
     cursor: pointer;
 }
 
-label.btn-block {
+.btn-block {
     text-align: left;
     position: relative;
 }
