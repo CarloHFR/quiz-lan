@@ -1,102 +1,80 @@
 questions = {
     "1": {
-        "question": "What is the scientific name of a butterfly?",
+        "question": "O que significa LAN ?",
         "type": "multi",
         "answers": {
-            "a1": "Apis",
-            "a2": "Coleoptera",
-            "a3": "Formicidae",
-            "a4": "Rhopalocera"
+            "a1": "Local Area Network",
+            "a2": "Long Area Network",
+            "a3": "Large Area Network",
+            "a4": "Lean Area Network"
         },
-        "correct_answer": "a3"
+        "correct_answer": "a1"
     },
     "2": {
-        "question": "How hot is the surface of the sun?",
-        "type": "vf",
+        "question": "Qual é a definição de LAN?",
+        "type": "multi",
         "answers": {
-            "a1": "1,233 K",
-            "a2": "5,778 K"
+            "a1": "É uma linguagem de programação",
+            "a2": "É uma rede local de computadores",
+	    "a3": "É uma rede global de computadores",
+            "a4": "É um componente do computador"
         },
-        "correct_answer": "a1"
+        "correct_answer": "a2"
     },
     "3": {
-        "question": "What is the scientific name of a butterfly?",
+        "question": "Quais os quatro tipos de topologias utilizadas para construir LAN?",
         "type": "multi",
         "answers": {
-            "a1": "Apis",
-            "a2": "Coleoptera",
-            "a3": "Formicidae",
-            "a4": "Rhopalocera"
+            "a1": "Estrela, Barramento, Triangular, Anel",
+            "a2": "Árvore, Estrela, Anel e Barramento",
+	    "a3": "Barramento, Triangular, Árvore, Estrela",
+            "a4": "Barramento, Anel, Estrela e Malha"
         },
-        "correct_answer": "a3"
+        "correct_answer": "a4"
     },
     "4": {
-        "question": "How hot is the surface of the sun?",
+        "question": "Uma conexão do tipo LAN é realizada por dispositivos conectados globalmente",
         "type": "vf",
         "answers": {
-            "a1": "1,233 K",
-            "a2": "5,778 K"
+            "a1": "Verdadeiro",
+            "a2": "Falso"
+        },
+        "correct_answer": "a2"
+    },
+    "5": {
+        "question": "A união de várias redes LAN formam uma rede WAN",
+        "type": "vf",
+        "answers": {
+            "a1": "Verdadeiro",
+            "a2": "Falso"
         },
         "correct_answer": "a1"
     },
-    "5": {
-        "question": "What is the scientific name of a butterfly?",
-        "type": "multi",
-        "answers": {
-            "a1": "Apis",
-            "a2": "Coleoptera",
-            "a3": "Formicidae",
-            "a4": "Rhopalocera"
-        },
-        "correct_answer": "a3"
-    },
     "6": {
-        "question": "How hot is the surface of the sun?",
+        "question": "O limitador da rede LAN é uma faixa de IP restrita à mesma, com uma máscara de rede comum",
         "type": "vf",
         "answers": {
-            "a1": "1,233 K",
-            "a2": "5,778 K"
+            "a1": "Verdadeiro",
+            "a2": "Falso"
         },
         "correct_answer": "a1"
     },
     "7": {
-        "question": "What is the scientific name of a butterfly?",
-        "type": "multi",
+        "question": "Cada dispositivo conectado em LAN é chamado de nó na rede",
+        "type": "vf",
         "answers": {
-            "a1": "Apis",
-            "a2": "Coleoptera",
-            "a3": "Formicidae",
-            "a4": "Rhopalocera"
+            "a1": "Verdadeiro",
+            "a2": "Falso"
         },
-        "correct_answer": "a3"
+        "correct_answer": "a1"
     },
     "8": {
-        "question": "How hot is the surface of the sun?",
+        "question": "Possuir uma rede local dificulta a eficiência e a produtividade, aumento os custos no local de trabalho",
         "type": "vf",
         "answers": {
-            "a1": "1,233 K",
-            "a2": "5,778 K"
+            "a1": "Verdadeiro",
+            "a2": "Falso"
         },
-        "correct_answer": "a1"
-    },
-    "9": {
-        "question": "What is the scientific name of a butterfly?",
-        "type": "multi",
-        "answers": {
-            "a1": "Apis",
-            "a2": "Coleoptera",
-            "a3": "Formicidae",
-            "a4": "Rhopalocera"
-        },
-        "correct_answer": "a3"
-    },
-    "10": {
-        "question": "How hot is the surface of the sun?",
-        "type": "vf",
-        "answers": {
-            "a1": "1,233 K",
-            "a2": "5,778 K"
-        },
-        "correct_answer": "a1"
+        "correct_answer": "a2"
     }
 };

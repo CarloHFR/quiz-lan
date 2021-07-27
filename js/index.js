@@ -97,13 +97,13 @@ var write_question_screen = function()
 
 var write_final_screen = function()
 {
-    if(score < 5)
+    if(score < 3)
     {
         final_message = "Que pena, você precisa estudar mais!";
-    }else if (score >= 5 && score <= 7)
+    }else if (score >= 3 && score <= 5)
     {
         final_message = "Parabéns, mas continue estudando!";
-    }else if (score >= 6)
+    }else if (score >= 5)
     {
         final_message = "Parabéns, você conhece bem o assunto!";
     }
