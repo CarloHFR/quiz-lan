@@ -2,13 +2,11 @@
 <html lang="pt-br">
 
     <head>
-        <title>QUIZ LAN</title>
+        <title>QUIZ SOBRE REDES LAN</title>
         
-        <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         
         <link rel="stylesheet" href="css/style.css">
@@ -28,7 +26,7 @@
 
         <div class="container-fluid">
             <div class="modal-dialog">
-                <div class="modal-content bg-info initial-modal hidden">
+                <div class="modal-content content-modal bg-info initial-modal">
                     <div class="modal-header">
                         <h3 class='col-12 modal-title text-center'><span class="label label-warning" id="qid"></span>Quiz sobre redes LAN</h3>
                     </div>
@@ -47,7 +45,7 @@
                 </div>
 
 
-                <div class="modal-content bg-info about-modal">
+                <div class="modal-content bg-info about-modal hidden">
                     <div class="modal-header">
                         <h3 class='col-12 modal-title text-center'><span class="label label-warning" id="qid"></span>Quiz sobre redes LAN</h3>
                     </div>
@@ -57,13 +55,32 @@
                         Francielly Ferraz da silva<br>
                         Gabriele Bueno<br>
                         <br>
-                        PROGRAMAÇÃO E DESIGN <br>
+                        DESENVOLVIMENTO<br>
                         Carlo Henrique Ferreira Rodrigues<br>
                         Natália Gallo Ribeiro<br>
                         <br>
                         REFERÊNCIAS <br>
-                        Carlo Henrique Ferreira Rodrigues<br>
-                        Natália Gallo Ribeiro<br>
+
+                        <div class="row">
+                            <div class="col txt-right">Douglas E.Comer</div>
+                            <div class="col txt-left">Redes de Computadores e Internet - 6.ed. - 2016</div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col txt-right">Douglas Rocha Mendes</div>
+                            <div class="col txt-left">Redes de Computadores: Teoria e Prática - 1.ed. - 2020</div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col txt-right">helpdigitalti.com.br</div>
+                            <div class="col txt-left">O que é uma rede lan e uma rede wan? - 2020</div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col txt-right">speedcheck.org</div>
+                            <div class="col txt-left">O que é uma lan? - 2020</div>
+                        </div>
+                    
                         <br>
                     </div>
 
@@ -71,6 +88,18 @@
                 </div>
             </div>
         </div>
+
+        <script>
+            $('.about').click(function() {
+                $('.about-modal').toggleClass('hidden');
+                $('.initial-modal').toggleClass('hidden');
+            });
+
+            $('.back').click(function() {
+                $('.about-modal').toggleClass('hidden');
+                $('.initial-modal').toggleClass('hidden');
+            });
+        </script>
 
     </body>
 

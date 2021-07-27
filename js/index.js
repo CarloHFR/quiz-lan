@@ -6,19 +6,19 @@ var num_of_questions = Object.keys(questions).length;
 
 var start_game = function()
 {
-    $('.modal-content').fadeOut();
+    $('.content-modal').fadeOut();
 
     setTimeout(function()
     {
         write_question_screen();
-        $('.modal-content').show();
+        $('.content-modal').show();
     }, 1000);
 }
 
 
 var restart_game = function()
 {
-    $('.modal-content').fadeOut();
+    $('.content-modal').fadeOut();
 
     score = 0;
     current_question_id = 1;
@@ -27,7 +27,7 @@ var restart_game = function()
     setTimeout(function()
     {
         write_question_screen();
-        $('.modal-content').show();
+        $('.content-modal').show();
     }, 1000);
 }
 
@@ -41,12 +41,12 @@ var get_next_question = function()
             current_question_id += 1;
             current_question = questions[current_question_id];
             write_question_screen();
-            $('.modal-content').show();
+            $('.content-modal').show();
         }else
         {
             //end of game
             write_final_screen();
-            $('.modal-content').show();
+            $('.content-modal').show();
         }     
     }, 1000);
 }
@@ -56,7 +56,7 @@ var check_answer = function(answer)
 {
     var ans = $(answer).val();
 
-    $('.modal-content').fadeOut();
+    $('.content-modal').fadeOut();
 
     if(ans == current_question.correct_answer)
     {
@@ -90,8 +90,8 @@ var write_question_screen = function()
 
     modal += "</div></div><div class='modal-footer'><span class='score'>Score: " + score + "</span>";
 
-    $(".modal-content").html("");
-    $(".modal-content").html(modal);
+    $(".content-modal").html("");
+    $(".content-modal").html(modal);
 }; 
 
 
@@ -109,9 +109,9 @@ var write_final_screen = function()
     }
 
     modal = "<div class='modal-header'><h3 class='col-12 modal-title text-center'><span class='label label-warning' id='qid'></span>SCORE</h3></div>";
-    modal += "<div class='modal-body'><div class='final-score'>" + score + "</div></br><div class='final-message'>" + final_message + "</div></br><button class='element-animation1 btn btn-lg btn-light text-info' onclick='restart_game()'>Jogar Novamente</button></div>";
+    modal += "<div class='modal-body'><div class='final-score'>" + score + "/8</div></br><div class='final-message'>" + final_message + "</div></br><button class='element-animation1 btn btn-lg btn-light text-info' onclick='restart_game()'>Jogar Novamente</button></div>";
     modal += "<div class='modal-footer text-muted'><span id='answer'></span>";
 
-    $(".modal-content").html("");
-    $(".modal-content").html(modal);
+    $(".content-modal").html("");
+    $(".content-modal").html(modal);
 }; 

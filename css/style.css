@@ -22,10 +22,6 @@
     text-align: justify !important;
 }
 
-.form-radio{
-    display : none;
-}
-
 #qid{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -45,6 +41,10 @@
     font-weight: 700;
 }
 
+.hidden{
+    display: none;
+}
+
 .about{
     color: #fff;
     cursor: pointer;
@@ -62,6 +62,14 @@
     font-weight: 700;
 }
 
+.modal-body .txt-left{
+    text-align: left !important;
+}
+
+.modal-body .txt-right{
+    text-align: right !important;
+}
+
 .final-score{
     color: #fff;
     font-size: 50px;
@@ -72,10 +80,6 @@
     color: #fff;
     font-size: 20px;
     font-weight: 700;
-}
-
-.hidden{
-    display: none;
 }
 
 .btn {
