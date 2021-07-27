@@ -18,6 +18,10 @@
     border: none;
 }
 
+.modal-body .initial-text{
+    text-align: justify !important;
+}
+
 .form-radio{
     display : none;
 }
@@ -35,6 +39,29 @@
     color: #fff;
 }
 
+.initial-text{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.about{
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.back{
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.credits{
+    color: #fff;
+    font-weight: 700;
+}
+
 .final-score{
     color: #fff;
     font-size: 50px;
@@ -45,6 +72,10 @@
     color: #fff;
     font-size: 20px;
     font-weight: 700;
+}
+
+.hidden{
+    display: none;
 }
 
 .btn {

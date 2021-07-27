@@ -28,23 +28,49 @@
 
         <div class="container-fluid">
             <div class="modal-dialog">
-                <div class="modal-content bg-info">
-
+                <div class="modal-content bg-info initial-modal hidden">
                     <div class="modal-header">
                         <h3 class='col-12 modal-title text-center'><span class="label label-warning" id="qid"></span>Quiz sobre redes LAN</h3>
                     </div>
 
-                    <div class="modal-body ">
+                    <div class="modal-body">
+                        <div class="initial-text">
+                            Este quiz foi elaborado com o intuito de ensinar sobre redes lan de forma simples. Para mais informações consultar a seção sobre desse quiz.
+                        </div>
+
+                        <br>
+
                         <button class='element-animation1 btn btn-lg btn-light text-info' onclick='start_game()'>Jogar</button>
                     </div>
 
-                    <div class="modal-footer text-muted"><span id="answer"></span></div>
+                    <div class="modal-footer"><span class="about">Sobre</span></div>
+                </div>
 
+
+                <div class="modal-content bg-info about-modal">
+                    <div class="modal-header">
+                        <h3 class='col-12 modal-title text-center'><span class="label label-warning" id="qid"></span>Quiz sobre redes LAN</h3>
+                    </div>
+
+                    <div class="modal-body credits">
+                        PESQUISA<br>
+                        Francielly Ferraz da silva<br>
+                        Gabriele Bueno<br>
+                        <br>
+                        PROGRAMAÇÃO E DESIGN <br>
+                        Carlo Henrique Ferreira Rodrigues<br>
+                        Natália Gallo Ribeiro<br>
+                        <br>
+                        REFERÊNCIAS <br>
+                        Carlo Henrique Ferreira Rodrigues<br>
+                        Natália Gallo Ribeiro<br>
+                        <br>
+                    </div>
+
+                    <div class="modal-footer"><span class="back">Voltar</span></div>
                 </div>
             </div>
         </div>
-
-        
 
     </body>
 
